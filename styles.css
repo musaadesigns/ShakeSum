@@ -609,16 +609,34 @@ textarea {
 
 @media (max-width: 650px) {
 
+  header {
+    height: 100px;
+  }
+
+  #logo {
+    width: 30%;
+    margin: 0 0 0 20px;
+    height: 100px;
+
+  }
+
+  nav {
+    margin: 0;
+    height: 70px;
+  }
+
+  #menu-icon {
+    margin: 34px 30px;
+    text-align: center;
+  }
+
+
   .ingredients {
     float: left;
     width: 50%;
   }
 }
 @media (max-width: 425px) {
-
-  #logo {
-    width: 30%;
-  }
 
   nav {
     font-size: 15px;
